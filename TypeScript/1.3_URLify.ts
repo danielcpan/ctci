@@ -5,7 +5,7 @@
 
 // SOLUTION #1 = TIME - O(n) | SPACE - O(1)
 const URLify = (str: string, len: number): string => {
-  let URLString = "";
+  let URLString: string = "";
 
   for (let i = 0; i < len; i++) {
     URLString += str[i] === " " ? "%20" : str[i];

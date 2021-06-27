@@ -1,4 +1,4 @@
-// 1.2) Check Permutation: Given two strings, write a method to decide if one is a permutation of the
+// 1.2 Check Permutation: Given two strings, write a method to decide if one is a permutation of the
 // other.
 
 // SOLUTION #1 = TIME - O(n) | SPACE - O(n)
