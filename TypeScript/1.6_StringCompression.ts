@@ -18,3 +18,8 @@ const stringCompression = (str: string): string => {
 
   return compressedStr.length > str.length ? str : compressedStr;
 };
+
+// TEST CASES:
+console.log(stringCompression("aabcccccaaa"));
+console.log(stringCompression("aaa"));
+console.log(stringCompression("aa"));

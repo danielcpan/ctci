@@ -15,3 +15,8 @@ const palindromePermutation = (str: string): boolean => {
 
   return charSet.size < 2;
 };
+
+// TEST CASES:
+console.log(palindromePermutation("Tact Cao"));
+console.log(palindromePermutation("racecar"));
+console.log(palindromePermutation("werererew"));

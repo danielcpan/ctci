@@ -16,3 +16,10 @@ const oneAway = (a: string, b: string): boolean => {
 
   return editsLeft < 2;
 };
+
+// TEST CASES:
+console.log(oneAway("pales", "ple"));
+console.log(oneAway("pales", "pale"));
+console.log(oneAway("pale", "bale"));
+console.log(oneAway("pale", "bake"));
+console.log(oneAway("pale", "xywz"));

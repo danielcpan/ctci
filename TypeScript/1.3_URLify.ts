@@ -13,3 +13,6 @@ const URLify = (str: string, len: number): string => {
 
   return URLString;
 };
+
+// TEST CASES
+console.log("Mr John Smith     ", 13);

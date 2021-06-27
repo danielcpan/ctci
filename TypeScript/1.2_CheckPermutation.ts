@@ -16,3 +16,6 @@ const checkPermutation = (a: string, b: string): boolean => {
 // const checkPermutation = (a: string, b: string): boolean => {
 //   return [...a].sort(compare).join("") === [...b].sort(compare).join("");
 // };
+
+// TEST CASES
+console.log(checkPermutation("weew", "eeww"));
