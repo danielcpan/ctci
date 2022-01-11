@@ -77,3 +77,8 @@ class Heap {
     }
   }
 }
+
+export const MIN_COMPARATOR = (a, b) => a - b;
+export const MAX_COMPARATOR = (a, b) => a - b;
+
+export default Heap;
