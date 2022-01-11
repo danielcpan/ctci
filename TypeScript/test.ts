@@ -1,4 +1,4 @@
-class Heap {
+class HeapTest {
   items: number[];
 
   constructor(items: number[]) {
@@ -102,7 +102,7 @@ class Heap {
 //   }
 // }
 
-console.log(new Heap([4, 5, 8, 2]));
+console.log(new HeapTest([4, 5, 8, 2]));
 
 /**
  * Your KthLargest object will be instantiated and called as such:
