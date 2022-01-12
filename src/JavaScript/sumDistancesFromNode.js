@@ -18,3 +18,15 @@ class Node {
     this.right = right !== undefined ? right : null;
   }
 }
+
+/*
+Q) Find sum of distances from all nodes to selected Node
+
+
+Find common ancestor between two nodes
+return leftDist + rightDist
+
+[5,3,6,1]
+min = 5 -> 3
+[{ val: 5, },3]
+*/
